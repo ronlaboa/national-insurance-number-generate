@@ -9,7 +9,7 @@ To create National Insurance numbers for each person in a CSV file you can run t
 
 `people = NationalInsurance::generate_ni_numbers(file_name)` eg: 'data_files/list_of_people.csv'
 
-This then generates an array of people from the file and saves them with their NI number to an array called `@people`.
+This then generates an array of people from the file and returns an array of people.
 
 To count how many national insurance numbers for each country you can pass in a list of people to this method:
 
